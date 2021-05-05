@@ -11,7 +11,7 @@
       .primary {
         background-color: bisque;
         width: 400px;
-        height: 200px;
+        height: 300px;
         border: 1px solid black;
       }
       .email {
@@ -28,10 +28,25 @@
         padding: 2px;
         border: 10px;
       }
+      .arrow {
+        height: 50px;
+        width: 50px;
+      }
+      img {
+        position: relative;
+        top: 30px;
+        left: 30px;
+      }
     </style>
 
     <div class="primary">
-      <h1 style="text-align: center">Login</h1>
+      <img
+        class="arrow"
+        src="https://media.giphy.com/media/JtHjCE4pNmP7WogqZ8/giphy.gif"
+        alt="image"
+      />
+      <h1 style="text-align: center; position: relative; top: 10px">Login</h1>
+
       <form class="forrm">
         <label for="Email">Email </label>
         <input class="email" type="text" name="email" id="email" />

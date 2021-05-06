@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(131, 202, 202);
+}
+
+.navbar {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(11, 116, 116);
+}
+
+.profile_pic {
+  margin-top: 100px;
+  margin-left: 40px;
+  height: 180px;
+  width: 180px;
+  border: 5px solid black;
+  border-radius: 250px;
+}
+
+.profile_pic:hover {
+  transform: scale(1.5);
+  transition: transform 0.9s;
+}
+
+.intro {
+  text-align: center;
+  width: 100%;
+}
+
+.projects {
+}

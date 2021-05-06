@@ -1,0 +1,43 @@
+body {
+  background-color: #1e212d;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 10%;
+  border-width: 8px;
+  color: beige;
+}
+
+h1,
+p,
+thead,
+h3,
+ol,
+ul,
+a,
+tr,
+label {
+  color: beige;
+}
+
+.first:hover {
+  color: blueviolet;
+}
+
+.linkedin:hover {
+  color: brown;
+}
+
+.title {
+  color: brown;
+}
+
+.links:hover {
+  color: crimson;
+}
+
+.mainhead {
+  color: brown;
+  text-align: center;
+}

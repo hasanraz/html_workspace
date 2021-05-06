@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 54, 177);
+    background-size: cover;
+  }
+  .box{
+    size: fill;
+    background: rgba(231, 136, 136, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    font-family:sans-serif;
+  }
+
+  .box-img{
+    border-radius:100%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .box h1{
+    background-color: orangered;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    background-color: green;  
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .box p{
+    background-color: rgb(195, 197, 71);  
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  

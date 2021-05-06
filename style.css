@@ -1,0 +1,58 @@
+body {
+  background-image: url("./xps-1gLdTsX3_70-unsplash.jpg");
+  background-size: cover;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  text-shadow: 3px 3px 3px green;
+}
+h1:hover {
+  color: brown;
+}
+
+input {
+  border: 1px solid green;
+  text-indent: 5px;
+}
+.primary {
+  background-color: black;
+  width: 400px;
+  height: 300px;
+  border: 1px solid green;
+  margin: auto auto;
+  border-radius: 15px;
+}
+.submit:hover {
+  border-radius: 5px;
+}
+.submit {
+  cursor: pointer;
+}
+.email {
+  position: relative;
+  left: 29px;
+}
+.submit {
+  position: relative;
+  left: 132px;
+  top: 20px;
+}
+.forrm {
+  margin: 10px;
+  padding: 2px;
+  border: 10px;
+  color: white;
+}
+.arrow {
+  height: 50px;
+  width: 50px;
+}
+img {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}

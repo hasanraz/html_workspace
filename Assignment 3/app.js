@@ -1,6 +1,6 @@
 var slideIndex = 0;
-carousel();
-
+var time = 3000;
+// carousel();
 function carousel() {
   var i;
   var x = document.getElementsByClassName("images");
@@ -12,5 +12,5 @@ function carousel() {
     slideIndex = 1;
   }
   x[slideIndex - 1].style.display = "inline";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, time); // Change image every 2 seconds
 }

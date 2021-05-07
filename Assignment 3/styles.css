@@ -43,7 +43,7 @@ body {
   background-size: cover;
 }
 .middle_top {
-  background-image: url("./images/slideshow.gif");
+  /* background-image: url("./images/slideshow.gif"); */
   background-size: contain;
   border: 2px solid black;
   width: 49.7%;
@@ -56,6 +56,7 @@ body {
   background-size: cover;
   height: 100%;
   width: 100%;
+  display: none;
 }
 .middle_bottom {
   border: 2px solid black;

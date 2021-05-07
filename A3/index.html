@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="js/jquery-3.6.0.main.js"></script>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Fishtail Mountain";
+      }
+    </script>
+    <script>
+      function myFunction2() {
+        document.getElementById("demo2").innerHTML = "Annapurna Mountain";
+      }
+    </script>
+    <script>
+      function myFunction3() {
+        document.getElementById("demo3").innerHTML = "Dhaulagiri Mountain";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="images">
+      <h1>Welcome Everyone</h1>
+
+      <img class="bottom" src="./annapurna-II.jpg" width="500" height="200" />
+      <img class="top" src="./Fishtail.jpg" width="500" height="200" />
+
+      <!-- <center><img src="./Dhaulagiri.jpg" width="700" height="300" /></center> -->
+    </div>
+
+    <div class="banner">
+      <div class="b1">
+        <h1>Banner 1</h1>
+      </div>
+      <div class="b2"><h1>Banner 2</h1></div>
+    </div>
+
+    <div class="description">
+      <h1>Description</h1>
+    </div>
+
+    <div class="contact_card">
+      <div class="cc1">
+        <p id="demo">Mountain</p>
+        <button type="button" onclick="myFunction()">Click</button>
+      </div>
+      <div class="cc2">
+        <p id="demo2">Mountain</p>
+        <button type="button" onclick="myFunction2()">Click</button>
+      </div>
+      <div class="cc3">
+        <p id="demo3">Mountain</p>
+        <button type="button" onclick="myFunction3()">Click</button>
+      </div>
+    </div>
+  </body>
+</html>

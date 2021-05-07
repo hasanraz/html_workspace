@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(149, 214, 252);
+}
+
+.images {
+  text-align: center;
+  border: black 3px dotted;
+  position: relative;
+
+  margin: 0 auto;
+}
+
+.images img {
+  margin-top: 20px;
+  margin-left: 330px;
+  width: 820px;
+  border: black 3px dotted;
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.images img.top:hover {
+  opacity: 0;
+}
+
+.contact_card {
+  width: 800px;
+  height: 300px;
+  position: relative;
+  border: black 2px dotted;
+  margin-top: 50px;
+  margin-left: 345px;
+}
+
+.cc1 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: black 2px dotted;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+.cc2 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: black 2px dotted;
+  margin-top: -205px;
+  margin-left: 270px;
+}
+.cc3 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: black 2px dotted;
+  margin-top: -205px;
+  margin-left: 520px;
+}
+
+.b1 {
+  height: 800px;
+  width: 300px;
+  margin-top: 50px;
+
+  border: black 2px dotted;
+}
+.b2 {
+  margin-left: 1190px;
+  margin-top: -815px;
+  height: 800px;
+  width: 300px;
+
+  border: black 2px dotted;
+}
+
+.description {
+  margin-left: 345px;
+  margin-top: -600px;
+  width: 800px;
+  height: 500px;
+  border: black 2px dotted;
+  text-align: center;
+}

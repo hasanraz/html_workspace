@@ -1,0 +1,103 @@
+.header {
+  text-align: center;
+  height: 15%;
+  font-size: 73px;
+  font-family: "Teko", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  background-color: black;
+  border: 1px solid black;
+  background-image: url("./images/img5.jpg");
+  background-size: contain;
+  color: blanchedalmond;
+  word-spacing: 4px;
+  letter-spacing: 4px;
+}
+h2 {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
+.banner {
+  border: 2px solid black;
+  height: 92%;
+  width: 25%;
+  position: absolute;
+  top: 10%;
+  background-image: url("./images/Poster\ Travel\ 03.jpg");
+  background-size: cover;
+}
+.banner2 {
+  position: absolute;
+  border: 2px solid black;
+  height: 92%;
+  width: 25%;
+  top: 8%;
+  right: 0px;
+  background-image: url("./images/Poster\ Travel\ 01.jpg");
+  background-size: contain;
+  top: 10%;
+}
+body {
+  margin: 0;
+  background-image: url("./images/img6.jpg");
+  background-size: cover;
+}
+.middle_top {
+  background-image: url("./images/slideshow.gif");
+  background-size: contain;
+  border: 2px solid black;
+  width: 49.7%;
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  height: 47%;
+}
+.images {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.middle_bottom {
+  border: 2px solid black;
+  width: 49.7%;
+  position: absolute;
+  top: 55%;
+  right: 25%;
+  height: 15%;
+  text-align: center;
+  background-color: black;
+  color: beige;
+}
+.cards {
+  border: 1px solid black;
+  height: 175px;
+  width: 175px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 35px; /* 5px rounded corners */
+  background-color: black;
+}
+.cards:hover {
+  transform: scale(1.1);
+}
+.one {
+  position: absolute;
+  bottom: 3%;
+  left: 30%;
+  background-image: url("https://media.giphy.com/media/55vzBGrp5qkTOXNujB/giphy.gif");
+  background-size: cover;
+}
+.two {
+  position: absolute;
+  bottom: 3%;
+  left: 45%;
+  background-image: url("https://media.giphy.com/media/8dNksYC3E8wPHsc4Ak/giphy.gif");
+  background-size: cover;
+}
+.three {
+  position: absolute;
+  bottom: 3%;
+  left: 60%;
+  background-image: url("https://media.giphy.com/media/3ohhwLuj2mUPyddkUU/giphy.gif");
+  background-size: cover;
+}

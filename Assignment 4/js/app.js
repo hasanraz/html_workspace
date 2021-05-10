@@ -7,9 +7,6 @@ var slider_img = document.querySelectorAll(".images");
 var arrowLeft = document.getElementsByClassName("prev");
 var arrowRight = document.getElementsByClassName("next");
 
-// var arrowLeft = document.getElementsByClassName(".prev");
-// var arrowRight = document.getElementsByClassName(".next");
-
 //Function to clear out all the images.
 function clear() {
   for (let i = 0; i < slider_img.length; i++) {

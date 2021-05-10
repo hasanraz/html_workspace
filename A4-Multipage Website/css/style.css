@@ -209,7 +209,7 @@ body {
 }
 
 /* For Carousel */
-/* .carousel_img {
+.carousel_img {
   margin-top: 30%;
   display: flex;
   margin: 0;
@@ -220,7 +220,7 @@ body {
   display: block;
   list-style: none;
   margin-top: 30%;
-} */
+}
 
 button.prev,
 button.next {

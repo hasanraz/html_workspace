@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mountainipedia</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/carousel.js"></script>
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML =
+          "Fishtail Mountain: It is a mountain situated in the Annapurna massif of Gandaki Pradesh, north-central Nepal. Its highest peak has never been officially  climbed due to the impossibility of gaining a permit from the government of Nepal. Elevation: 6,999 m (22,963 ft) ";
+      }
+    </script>
+
+    <script>
+      function myFunction2() {
+        document.getElementById("demo2").innerHTML =
+          "Annapurna II Mountain: It is one of the mountain in Annapurna Massif in the Himalayas in north-central Nepal which is bounded by the Kali Gandaki Gorge on the west, the Marshyangdi River on the north and east, and by Pokhara Valley on the south. Elevation: 8,091 m (26,545 ft) ";
+        // document.getElementsByClassName("m2_intro").item;
+      }
+    </script>
+
+    <script>
+      function myFunction3() {
+        document.getElementById("demo3").innerHTML =
+          "Dhaulagiri Mountain: It is one of the Mountain in Dhaulagiri massif in Nepal extends 120 km (70 mi) from the Kaligandaki River west to the Bheri which is  Dhaulagiri massif in Nepal extends 120 km (70 mi) from the Kaligandaki  River west to the Bheri. Elevation: 8,167 m (26,795 ft)";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h3 class="logo">Mountainipedia</h3>
+      <h3 class="home button"><a href="index.html">Home</a></h3>
+      <h3 class="contact button"><a href="contact.html">Contact</a></h3>
+    </div>
+
+    <div class="images">
+      <img
+        class="bottom"
+        src="./images/annapurna-II.jpg"
+        width="500"
+        height="200"
+      />
+      <img class="top" src="./images/Fishtail.jpg" width="500" height="200" />
+    </div>
+
+    <!-- <div>
+      <ul class="carousel_img">
+        <li class="carousel_img_list">
+          <img class="img1" src="./images/Fishtail.jpg" />
+        </li>
+        <li><img class="img2" src="./images/annapurna-II.jpg" /></li>
+      </ul>
+
+      <button class="prev" onclick="show(-1)">&lt;</button>
+      <button class="next" onclick="show(+1)">&gt;</button>
+    </div> -->
+
+    <div class="page_title">
+      <h1>Home</h1>
+    </div>
+
+    <div class="introduction">
+      <h1>Introduction</h1>
+      <p class="intro_detail">
+        This website is targeted to the users who wants to know more details
+        about the mountains in the world.
+      </p>
+    </div>
+
+    <div class="contact_card">
+      <h3>List of Mountains</h3>
+
+      <!-- <div class="cc1">
+        <img class="m1_img" src="./images/Fishtail.jpg" />
+        <h3 id="demo">Mountain</h3>
+         <p>
+          It is a mountain situated in the Annapurna massif of Gandaki Pradesh,
+          north-central Nepal. Its highest peak has never been officially
+          climbed due to the impossibility of gaining a permit from the
+          government of Nepal.
+        </p>
+        <p>Elevation: 6,999 m (22,963 ft)</p> 
+        <button type="button" onclick="myFunction()">Click</button>
+      </div> -->
+
+      <div class="cc1">
+        <p id="demo"></p>
+        <button class="cc1b" type="button" onclick="myFunction()">
+          Check Detail
+        </button>
+      </div>
+
+      <div class="cc2">
+        <p id="demo2"></p>
+        <button class="cc2b" type="button" onclick="myFunction2()">
+          Check Detail
+        </button>
+      </div>
+
+      <div class="cc3">
+        <p id="demo3"></p>
+        <button class="cc3b" type="button" onclick="myFunction3()">
+          Check Detail
+        </button>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>Mountainipedia Inc.</h3>
+      <p>
+        Texas, USA. ©2021
+        <script>
+          function myFunction() {
+            var d = new Date();
+            var n = d.getFullYear();
+            document.getElementById("footer").innerHTML = n;
+          }
+        </script>
+      </p>
+    </div>
+  </body>
+</html>

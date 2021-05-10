@@ -3,8 +3,8 @@ var current_pos = 0;
 
 //Assigning left and right arrows respectively with queryselector
 var slider_img = document.querySelectorAll(".images");
-var arrowLeft = document.getElementsByClassName(".prev");
-var arrowRight = document.getElementsByClassName(".next");
+// var arrowLeft = document.getElementsByClassName(".prev");
+// var arrowRight = document.getElementsByClassName(".next");
 //Function to clear out all the images.
 function clear() {
   for (let i = 0; i < slider_img.length; i++) {
@@ -30,22 +30,25 @@ function right_slider() {
   current_pos++;
 }
 
-//Creating an event listener for left arrow
-arrowLeft.addEventListener("click", function () {
-  if (current_pos === 0) {
-    current_pos = slider_img.length;
+window.onload = function() {
+  var arrowLeft = document.getElementsByClassName("prev");
+  var arrowRight = document.getElementsByClassName("next");
+  //Creating an event listener for left arrow
+  arrowLeft[0].addEventListener("click", function () {
+    if (current_pos === 0) {
+      current_pos = slider_img.length;
+    }
+    left_slider();
+  });
+  
+  //Creating an event listener for right arrow
+  
+  arrowRight[0].addEventListener("click", function () {
+    if (current_pos === slider_img.length - 1) {
+      current_pos = 0;
+    }
+    right_slider();
+  });
   }
-  left_slider();
-});
-s;
-
-//Creating an event listener for right arrow
-
-arrowRight.addEventListener("click", function () {
-  if (current_pos === slider_img.length - 1) {
-    current_pos = 0;
-  }
-  right_slider();
-});
 
 //carousel_start();

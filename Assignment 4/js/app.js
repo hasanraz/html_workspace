@@ -3,8 +3,12 @@ var current_pos = 0;
 
 //Assigning left and right arrows respectively with queryselector
 var slider_img = document.querySelectorAll(".images");
+
 var arrowLeft = document.getElementsByClassName("prev");
 var arrowRight = document.getElementsByClassName("next");
+
+// var arrowLeft = document.getElementsByClassName(".prev");
+// var arrowRight = document.getElementsByClassName(".next");
 
 //Function to clear out all the images.
 function clear() {
